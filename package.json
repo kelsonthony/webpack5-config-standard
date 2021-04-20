@@ -1,0 +1,35 @@
+{
+  "name": "webpack5-config-standard",
+  "version": "1.0.0",
+  "description": "webpack 5 config standard dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelsonthony/webpack5-config-standard.git"
+  },
+  "keywords": [
+    "webpack",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "@kelsonthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelsonthony/webpack5-config-standard/issues"
+  },
+  "homepage": "https://github.com/kelsonthony/webpack5-config-standard#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
